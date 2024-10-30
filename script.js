@@ -52,3 +52,8 @@ window.addEventListener('scroll', function() {
         document.title = 'Photographer\'s Portfolio';
     }
 });
+
+document.querySelectorAll('.gallery-grid figcaption').forEach(caption => {
+    caption.addEventListener('mouseover', () => caption.style.color = '#ff6347');
+    caption.addEventListener('mouseout', () => caption.style.color = '#555');
+});
