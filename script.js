@@ -44,3 +44,11 @@ heroButton.addEventListener('mouseout', () => heroButton.style.transform = 'scal
 
 const footerText = document.querySelector('footer p');
 footerText.addEventListener('dblclick', () => footerText.style.opacity = '0.5');
+
+window.addEventListener('scroll', function() {
+    if (window.scrollY > window.innerHeight / 2) {
+        document.title = 'Keep Exploring the Portfolio!';
+    } else {
+        document.title = 'Photographer\'s Portfolio';
+    }
+});
