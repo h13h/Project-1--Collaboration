@@ -37,3 +37,7 @@ logo.addEventListener('mouseout', () => logo.style.width = '120px');
 const mainHeader = document.getElementById('main-header');
 mainHeader.addEventListener('mouseover', () => mainHeader.style.boxShadow = '0px 4px 8px rgba(0, 0, 0, 0.2)');
 mainHeader.addEventListener('mouseout', () => mainHeader.style.boxShadow = 'none');
+
+const heroButton = document.getElementById('portfolio-button');
+heroButton.addEventListener('mouseover', () => heroButton.style.transform = 'scale(1.1)');
+heroButton.addEventListener('mouseout', () => heroButton.style.transform = 'scale(1)');
