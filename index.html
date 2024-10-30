@@ -7,13 +7,12 @@
     <title>Photographer's Portfolio - Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body id="home-page">
+<body id="home-page"> <!-- Unique ID added for home page background -->
 
     <!-- Header Section -->
     <header id="main-header">
         <div class="logo">
-            <!-- Logo Placeholder -->
-            <h2>Photographer's Logo</h2>
+            <img src="assests/images/logo.png" alt="Photographer's Logo" />
         </div>
         <nav>
             <ul>
@@ -23,7 +22,14 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        <!-- Dark Mode Toggle Switch
+        <div class="dark-mode-toggle">
+            <input type="checkbox" id="dark-mode-switch">
+            <label for="dark-mode-switch">Dark Mode</label>
+        </div> -->
     </header>
+    
+    
 
     <!-- Hero Section -->
     <section id="hero">
@@ -32,14 +38,47 @@
         <button id="portfolio-button" onclick="window.location.href='about.html'">About the photographer</button>
     </section>
 
+   <!-- Media Gallery Section -->
+    <section id="media-gallery">
+        <h2>Portfolio Showcase</h2>
+        
+        <div class="media-item">
+            <figure>
+                <img src="assests/images/photo1.jpg" alt="Sample Photo 1">
+                <figcaption>"Sunset over a tranquil winter landscape, casting a warm glow across the snowy terrain. Silhouetted trees add depth and contrast against the vivid hues of the sky."</figcaption>
+            </figure>
+        </div>
+        
+        <div class="media-item">
+            <video controls>
+                <source src="assests/media/video-file.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="media-caption">"A delicate bird sips water with grace, its feathers glistening under the sunlight. Pausing, it pecks at seeds nearby, creating a peaceful, mesmerizing scene of nature’s beauty."</p>
+        </div>
+        
+        <div class="media-item">
+            <audio controls>
+                <source src="assests/media/audio-file.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p class="media-caption">"A soothing song with gentle melodies and calm harmonies, evoking warmth and tranquility. Its soft rhythms and delicate vocals create a peaceful, relaxing atmosphere."</p>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer>
         <p>&copy; 2024 Photographer's Portfolio - All Rights Reserved</p>
         <div class="social-media">
-            <!-- Social Media Links Placeholder -->
-            <a href="https://www.facebook.com/login" target="_blank">Facebook</a>
-            <a href="https://www.instagram.com/accounts/login" target="_blank">Instagram</a>
-            <a href="https://twitter.com/login" target="_blank">Twitter</a>
+            <a href="https://www.facebook.com/login" target="_blank">
+                <img src="assests/images/facebook-icon.png" alt="Facebook" />
+            </a>
+            <a href="https://www.instagram.com/accounts/login" target="_blank">
+                <img src="assests/images/instagram-icon.png" alt="Instagram" />
+            </a>
+            <a href="https://twitter.com/login" target="_blank">
+                <img src="assests/images/twitter-icon.png" alt="Twitter" />
+            </a>
         </div>
     </footer>
 
