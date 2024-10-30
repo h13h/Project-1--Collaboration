@@ -29,3 +29,7 @@ if (contactForm) {
     });
 }
 
+const logo = document.querySelector('.logo img');
+logo.addEventListener('mouseover', () => logo.style.width = '130px');
+logo.addEventListener('mouseout', () => logo.style.width = '120px');
+
