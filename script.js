@@ -60,3 +60,10 @@ document.querySelectorAll('.gallery-grid figcaption').forEach(caption => {
 
 const heroSection = document.getElementById('hero');
 heroSection.style.backgroundColor = '#f0e6ff';
+
+const currentPage = window.location.pathname.split('/').pop();
+document.querySelectorAll('nav ul li a').forEach(link => {
+    if (link.getAttribute('href') === currentPage) {
+        link.classList.add('active');
+    }
+});
