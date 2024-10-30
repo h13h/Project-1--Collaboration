@@ -20,3 +20,12 @@ if (heroTitle) {
     heroTitle.addEventListener('click', () => heroTitle.textContent = 'Thanks for visiting!');
 }
 
+const contactForm = document.getElementById('contact-form');
+if (contactForm) {
+    contactForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+        alert('Data has been submitted');
+        contactForm.reset();
+    });
+}
+
