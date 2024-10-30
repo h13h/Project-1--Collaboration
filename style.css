@@ -54,3 +54,30 @@ nav ul li a {
 nav ul li a:hover {
     color: #ff6347; /* Orange color on hover */
 }
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #333; /* Dark text for better readability */
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555; /* Slightly darker shade for readability */
+}
+
+#portfolio-button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+#portfolio-button:hover {
+    background-color: #e5533d;
+}
