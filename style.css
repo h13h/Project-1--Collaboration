@@ -187,3 +187,22 @@ nav ul li a:hover {
 .gallery-grid img:hover {
     transform: scale(1.05);
 }
+
+/* Contact Section */
+#contact {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
