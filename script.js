@@ -41,3 +41,6 @@ mainHeader.addEventListener('mouseout', () => mainHeader.style.boxShadow = 'none
 const heroButton = document.getElementById('portfolio-button');
 heroButton.addEventListener('mouseover', () => heroButton.style.transform = 'scale(1.1)');
 heroButton.addEventListener('mouseout', () => heroButton.style.transform = 'scale(1)');
+
+const footerText = document.querySelector('footer p');
+footerText.addEventListener('dblclick', () => footerText.style.opacity = '0.5');
