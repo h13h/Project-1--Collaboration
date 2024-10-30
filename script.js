@@ -10,3 +10,8 @@ if (portfolioButton) {
     portfolioButton.addEventListener('click', () => window.location.href = 'about.html');
 }
 
+document.querySelectorAll('.gallery-grid img').forEach(image => {
+    image.addEventListener('mouseover', () => image.style.transform = 'scale(1.4)');
+    image.addEventListener('mouseout', () => image.style.transform = 'scale(1)');
+});
+
