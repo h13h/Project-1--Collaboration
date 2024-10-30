@@ -324,3 +324,9 @@ footer .social-media a img:hover {
 .dark-mode-toggle input:checked[type="checkbox"]::before {
     left: 21px;
 }
+
+/* Active Link Styling */
+nav ul li a.active {
+    color: #ff6347;
+    font-weight: bold;
+}
