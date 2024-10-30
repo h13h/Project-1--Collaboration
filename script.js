@@ -15,3 +15,8 @@ document.querySelectorAll('.gallery-grid img').forEach(image => {
     image.addEventListener('mouseout', () => image.style.transform = 'scale(1)');
 });
 
+const heroTitle = document.querySelector('#hero h1');
+if (heroTitle) {
+    heroTitle.addEventListener('click', () => heroTitle.textContent = 'Thanks for visiting!');
+}
+
