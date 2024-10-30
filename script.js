@@ -71,3 +71,7 @@ document.querySelectorAll('nav ul li a').forEach(link => {
 document.querySelectorAll('#contact-form input, #contact-form textarea').forEach(input => {
     input.addEventListener('keyup', () => input.style.borderColor = '#4a90e2');
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    // All other code within this function
+});
